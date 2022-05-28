@@ -1,3 +1,7 @@
+<p style="text-align:center">
+    <img width="250" height="250" src="https://github.com/bizhanhe1996/vue-sonar/blob/master/sonar.gif?raw=true" />
+</p>
+
 # vue-sonar
 An animated responsive sonar made by SVG for Vue 3
 

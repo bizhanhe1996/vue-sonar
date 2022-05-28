@@ -45,21 +45,39 @@ export default {
 </script>
 
 <style scoped>
-@keyframes sonar {
+@-webkit-keyframes sonar {
   0% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
   }
   100% {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 
+@keyframes sonar {
+  0% {
+    -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+
 line {
-  transform-origin: center;
-  animation-name: sonar;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  -webkit-transform-origin: center;
+    transform-origin: center;
+  -webkit-animation-name: sonar;
+    animation-name: sonar;
+  -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
   stroke-linecap: round;
 }
 </style>
