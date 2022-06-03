@@ -1,5 +1,5 @@
 <p style="text-align:center">
-    <img width="250" height="250" src="https://github.com/bizhanhe1996/vue-sonar/blob/master/sonar.gif?raw=true" />
+    <img width="250" height="250" src="https://github.com/bizhanhe1996/vue-sonar/blob/master/demo.gif?raw=true" />
 </p>
 
 # vue-sonar
